@@ -22,7 +22,6 @@ html {
     font-family: "Montserrat";
     text-align: center;
     padding-bottom: 35px;
-
 }
 
 .title1 {
@@ -62,15 +61,18 @@ p {
 }
 
 .typeoficon li {
-    display: inline-block;
-    padding: 0 30px;
-    
+    display: inline-block; 
+}
+
+.item-link {
+     display: block;
+    padding: 30px;
+    transition: all ease-in-out 0.1s;
 }
 
 a {
     text-decoration: none;
     color: inherit;
-
 }
 
 .text-holder3 {
@@ -102,8 +104,11 @@ a {
     padding-bottom: 35px;
 }
 
-li:hover * {
+.item-link:hover {
     background-color: #0ec8cb;
+}
+
+.item-link:hover * {
     color: white;
 }
 
