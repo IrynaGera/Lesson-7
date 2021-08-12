@@ -65,7 +65,7 @@ p {
 }
 
 .item-link {
-     display: block;
+    display: block;
     padding: 30px;
     transition: all ease-in-out 0.1s;
 }
